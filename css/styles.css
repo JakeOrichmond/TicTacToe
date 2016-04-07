@@ -1,0 +1,31 @@
+#board {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 1px;
+  cursor: pointer;
+  font-size: 50px;
+  height: 150px;
+  padding: 38px 0;
+  border-style: solid;
+}
+
+.X {
+  color: green;
+}
+
+.O {
+  color: yellow;
+}
+
+.btn-danger {
+  background-color: #f2183d;
+  border-color: #f2183d;
+}
+
+.btn-danger:hover {
+  background-color: green;
+  border-color: green;
+}
